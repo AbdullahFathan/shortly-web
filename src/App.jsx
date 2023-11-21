@@ -1,4 +1,6 @@
+import CTA from "./components/CTA";
 import Feature from "./components/Feature";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Shorten from "./components/Shorten";
@@ -12,6 +14,8 @@ const App = () => {
       <Shorten />
       <Stats />
       <Feature />
+      <CTA />
+      <Footer />
     </main>
   );
 };
